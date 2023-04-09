@@ -1,3 +1,6 @@
+#defining a new function called binary search
+#takes in list (whihc will be an array list)
+#and the item that we are looking for
 def binary_search(list, item):
     low = 0
     high = len(list) - 1
@@ -16,4 +19,4 @@ def binary_search(list, item):
     return None
 
 my_list = [1, 3, 5, 7, 9]
-print (binary_search(my_list, 3))
+print (binary_search(my_list, 3)) #returns index of 3
